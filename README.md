@@ -10,5 +10,10 @@ sudo apt-get install build-essential
 sudo apt-get install gcc-multilib  
 sudo apt-get install gdb
 ```  
+注意可能有一些包装不上，这时候可以执行以下代码，更新apt，然后再执行上述命令即可  
+```  
+apt -f install  
+apt update
+```
 ## 实验进度  
 Lab 1  
